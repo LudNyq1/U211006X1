@@ -1,3 +1,3 @@
 exports.carsList = (req, res) => {
-    res.send('public/html/cars.html');
+    res.sendfile('public/html/cars.html');
 }
